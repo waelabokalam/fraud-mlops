@@ -1,5 +1,7 @@
 # Fraud Detection MLOps
 
+[![Contract checks](https://github.com/waelabokalam/fraud-mlops/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/waelabokalam/fraud-mlops/actions/workflows/ci.yml)
+
 **A reproducible imbalanced-class training workflow connected to a typed FastAPI prediction service.**
 
 The project combines training-only SMOTE, a Random Forest, MLflow experiment tracking, a fixed inference feature contract, Docker packaging and GitHub Actions checks.
